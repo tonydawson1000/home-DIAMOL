@@ -78,6 +78,12 @@ This image is an Apache Web Server with a simple HTML page.
 
         `ip a | grep 172`
 
+- You can 'exec' commands inside the running container
+
+    `podman exec <container-id> cat /var/www/html/index.html`
+
+    `podman cp <new.html> <container-id>:/var/www/html/index.html`
+
 - Source Code
 
     [https://github.com/tonydawson1000/home-DIAMOL/tree/main/Chapter-2/hello-web](https://github.com/tonydawson1000/home-DIAMOL/tree/main/Chapter-2/hello-web)
