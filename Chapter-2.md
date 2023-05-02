@@ -20,7 +20,7 @@ This simple container starts, prints out some info and then terminates.
 
 - Source Code
 
-    [https://github.com/tonydawson1000/home-DIAMOL](https://github.com/tonydawson1000/home-DIAMOL)
+    [https://github.com/tonydawson1000/home-DIAMOL/tree/main/Chapter-2/hello](https://github.com/tonydawson1000/home-DIAMOL/tree/main/Chapter-2/hello)
 
     ( [https://github.com/sixeyed/diamol/tree/master/ch02/exercises/hello-diamol](https://github.com/sixeyed/diamol/tree/master/ch02/exercises/hello-diamol) )
 
@@ -45,7 +45,7 @@ To start a container and connect to a terminal inside the running container.
 
 - Source Code
 
-    [https://github.com/tonydawson1000/home-DIAMOL](https://github.com/tonydawson1000/home-DIAMOL)
+    [https://github.com/tonydawson1000/home-DIAMOL/tree/main/images/base](https://github.com/tonydawson1000/home-DIAMOL/tree/main/images/base)
 
     ( [https://github.com/sixeyed/diamol/tree/master/images/base](https://github.com/sixeyed/diamol/tree/master/images/base) )
 
@@ -80,7 +80,7 @@ This image is an Apache Web Server with a simple HTML page.
 
 - Source Code
 
-    [https://github.com/tonydawson1000/home-DIAMOL](https://github.com/tonydawson1000/home-DIAMOL)
+    [https://github.com/tonydawson1000/home-DIAMOL/tree/main/Chapter-2/hello-web](https://github.com/tonydawson1000/home-DIAMOL/tree/main/Chapter-2/hello-web)
 
     ( [https://github.com/sixeyed/diamol/tree/master/ch02/exercises/hello-diamol-web](https://github.com/sixeyed/diamol/tree/master/ch02/exercises/hello-diamol-web) )
 
