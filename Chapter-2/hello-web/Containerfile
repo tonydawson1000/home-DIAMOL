@@ -1,0 +1,3 @@
+FROM quay.io/tonydawson1000/ubi9-apache:latest
+
+COPY html/ /var/www/html/

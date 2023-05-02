@@ -1,0 +1,4 @@
+FROM registry.access.redhat.com/ubi9/ubi:9.1
+
+RUN dnf -y install hostname
+RUN dnf -y install net-tools
