@@ -1,0 +1,24 @@
+FROM quay.io/tonydawson1000/ubi8-dotnet-70-runtime:latest AS base
+WORKDIR /app
+
+ENTRYPOINT ["dotnet", "MyConsoleApp.dll"]
+
+FROM quay.io/tonydawson1000/ubi8-dotnet-70:latest AS build
+WORKDIR /src
+COPY MyConsoleApp/ .
+
+# Run As 'root' to build on ubi - otherwise we get permission denied errors
+USER root
+
+RUN dotnet restore 
+
+RUN dotnet build /src -c Release -o /app/build
+
+FROM build AS publish
+
+RUN dotnet publish /src -c Release -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+
+COPY --from=publish /app/publish .
